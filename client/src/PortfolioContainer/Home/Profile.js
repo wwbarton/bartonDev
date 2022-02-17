@@ -1,24 +1,56 @@
 import React from "react";
-
+import robart from "../../assets/robart.png";
 function Profile() {
   return (
     <div className="profile-container">
       <div className="profile-parent">
         <div className="profile-details">
           <div className="colz">
-            <a href="https://github.com/wwbarton" target="_blank">
+            <a
+              href="https://github.com/wwbarton"
+              target="_blank"
+              rel="noopener"
+            >
               <i class="fa fa-github-square"></i>
             </a>
 
-            <a href="mailto:wwalt.barton@gmail.com" target="_blank">
+            <a
+              href="mailto:wwalt.barton@gmail.com"
+              target="_blank"
+              rel="noopener"
+            >
               <i className="fa fa-google-plus-square"></i>
             </a>
-            <a href="https://www.linkedin.com/in/wwbarton/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/wwbarton/"
+              target="_blank"
+              rel="noopener"
+            >
               <i class="fa fa-linkedin"></i>
             </a>
-            <a href="https://twitter.com/wbartonw5" target="_blank">
+            <a
+              href="https://twitter.com/wbartonw5"
+              target="_blank"
+              rel="noopener"
+            >
               <i className="fa fa-twitter"></i>
             </a>
+          </div>
+
+          <div className="profile-details-name">
+            <span className="primarty-text">
+              {" "}
+              Hello, I'm <span className="highlighted-text">Will</span>
+            </span>
+          </div>
+          <div className="profile-details-role">
+            <span className="primary-text">
+              <h1>
+                FullStack Developer!!{" "}
+                <img src={robart} alt="robart" height={35} width={35} />
+              </h1>
+            </span>
+            <span className="profile-role-tagline">MERN Stack Dev</span>
           </div>
         </div>
       </div>
