@@ -8,7 +8,6 @@ function Home() {
     <div className="home-container">
       <Profile />
       <Footer />
-      <footer />
     </div>
   );
 }

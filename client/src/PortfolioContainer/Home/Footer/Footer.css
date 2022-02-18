@@ -12,7 +12,8 @@
   max-width: 1920px;
 }
 
-.footer-parent img {
+.footer-parent,
+img {
   justify-content: center;
   max-width: 100%;
 }
