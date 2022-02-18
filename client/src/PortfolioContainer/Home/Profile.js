@@ -12,28 +12,28 @@ function Profile() {
                 target="_blank"
                 rel="noopener"
               >
-                <i class="fa fa-github fa-3x"></i>
+                <i class="fa fa-github-square fa-2x"></i>
               </a>
               <a
                 href="https://www.linkedin.com/in/wwbarton/"
                 target="_blank"
                 rel="noopener"
               >
-                <i class="fa fa-linkedin fa-3x"></i>
+                <i class="fa fa-linkedin-square fa-2x"></i>
               </a>
               <a
                 href="mailto:wwalt.barton@gmail.com"
                 target="_blank"
                 rel="noopener"
               >
-                <i className="fa fa-google-plus-square fa-3x"></i>
+                <i className="fa fa-google-plus-square fa-2x"></i>
               </a>
               <a
                 href="https://twitter.com/wbartonw5"
                 target="_blank"
                 rel="noopener"
               >
-                <i className="fa fa-twitter fa-3x"></i>
+                <i className="fa fa-twitter-square fa-2x"></i>
               </a>
             </div>
           </div>
