@@ -42,7 +42,7 @@ function Profile() {
           <div className="profile-details-name">
             <span className="primarty-text">
               {" "}
-              Hello, I'm <span className="highlighted-text">Will</span>
+              <span className="highlighted-text">Will Barton</span>
             </span>
           </div>
           <div className="profile-details-role">
@@ -57,7 +57,7 @@ function Profile() {
           <div className="profile-options">
             <button className="btn primary-btn">
               {""}
-              Hire Me
+              My Work
               {""}
             </button>
             <a href="#"></a> {/* resume */}
