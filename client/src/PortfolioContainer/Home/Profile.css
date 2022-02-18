@@ -3,13 +3,12 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  font-size: larger;
+
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(36, 170, 65);
-  font-weight: bold;
+
   background-image: url("../../assets/Home/bg.jpg");
 }
 @supports (-webkit-text-stroke: 1px black) {
@@ -22,5 +21,47 @@
 }
 
 span {
-  -webkit-text-stroke: 0.25px rgb(51, 110, 12);
+  -webkit-text-stroke: 0.25px rgba(0, 0, 0, 0.301);
+  -webkit-text-fill-color: rgb(226, 44, 7);
+}
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+}
+
+.profile-details-name {
+  font-size: 24px;
+  font-family: "Poppins SemiBold";
+}
+.profile-details-role {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.profile-details-role h1 {
+  font-size: 40px;
+}
+
+.primary-text {
+  color: (--white);
+}
+
+.highlighted-text {
+  color: var(--dark-orange);
+}
+
+.profile-role-tagline {
+  font-size: 19px;
+  font-weight: bolder;
+  margin: 5px 0 0 0;
+  font-family: "Poppins Light";
+}
+
+.profile-options .highlighted-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
 }
