@@ -1,5 +1,5 @@
 import React from "react";
-import robart from "../../assets/robart.png";
+import robart from "../../../assets/robart.png";
 import "./Profile.css";
 function Profile() {
   return (

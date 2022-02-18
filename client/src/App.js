@@ -1,11 +1,9 @@
-import Profile from "./PortfolioContainer/Home/Profile";
 import "./App.css";
-// import { ReactComponent as Logo } from "./assets/robart.svg";
+import Home from "./PortfolioContainer/Home/Home";
 function App() {
   return (
     <div className="App">
-      {/* <Logo /> */}
-      <Profile />
+      <Home />
     </div>
   );
 }

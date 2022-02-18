@@ -3,10 +3,6 @@
   align-items: center;
   text-align: center;
   justify-content: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url("../../assets/Home/bg.jpg");
 }
 @supports (-webkit-text-stroke: 1px black) {
   h1 {
@@ -77,7 +73,7 @@ span {
 .profile-picture-background {
   height: 92%;
   width: 92%;
-  background-image: url("../../assets/Home/profilephoto.jpg");
+  background-image: url("../../../assets/Home/profilephoto.jpg");
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
