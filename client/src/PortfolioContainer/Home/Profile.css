@@ -1,0 +1,26 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: larger;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: rgb(36, 170, 65);
+  font-weight: bold;
+  background-image: url("../../assets/Home/bg.jpg");
+}
+@supports (-webkit-text-stroke: 1px black) {
+  h1 {
+    -webkit-text-stroke: 1px black;
+    -webkit-text-fill-color: white;
+    text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
+      -1px 1px 0 #000, 1px 1px 0 #000;
+  }
+}
+
+span {
+  -webkit-text-stroke: 0.25px rgb(51, 110, 12);
+}
