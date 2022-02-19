@@ -57,7 +57,7 @@ function Profile() {
           <div className="profile-options">
             <button className="btn primary-btn">
               {""}
-              My Work
+              <a href="#Work">My Work</a>
               {""}
             </button>
             <a href="#"></a> {/* resume */}
