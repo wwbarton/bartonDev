@@ -10,7 +10,7 @@ function Work() {
   return (
     <div>
       <CardGroup id="Work">
-        <Card className="bg-dark text-danger font-weight-bold ">
+        <Card className="bg-dark text-danger font-weight-bold">
           <Card.Img src={giving} alt="Card image" />
           <Card.ImgOverlay>
             <Card.Title className="font-weight-bolder ">

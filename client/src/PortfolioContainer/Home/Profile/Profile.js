@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "react-bootstrap/Button";
 import robart from "../../../assets/robart.png";
 import "./Profile.css";
 function Profile() {
@@ -55,12 +56,10 @@ function Profile() {
             <span className="profile-role-tagline">MERN Stack Dev</span>
           </div>
           <div className="profile-options">
-            <button className="btn primary-btn">
-              {""}
-              <a href="#Work">My Work</a>
-              {""}
-            </button>
-            <a href="#"></a> {/* resume */}
+            <Button className="btn primary-btn" href="#Work">
+              My Work
+            </Button>
+
             <button className="btn highlighted-btn">Get Resume</button>
           </div>
         </div>
