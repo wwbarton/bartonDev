@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Home from "./PortfolioContainer/Home/Home";
-import Work from "./PortfolioContainer/Home/Work/Work";
+import Work from "./PortfolioContainer/Work/Work";
 
 function App() {
   return (
