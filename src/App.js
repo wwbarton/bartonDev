@@ -8,8 +8,8 @@ import Navbar from "./PortfolioContainer/NavBar/NavBar";
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
+        <Navbar />
         <Route path="/" element={<Home />}></Route>
         <Route path="/work" element={<Work />}></Route>
       </Routes>
