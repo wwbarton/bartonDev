@@ -2,22 +2,56 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 950px;
-  min-height: 1500px;
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  min-width: 100%;
+  min-height: 100%;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
   background-image: url("../../assets/images/icyCracks.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: -1;
 }
 
-#giving-container {
-  margin: 27px;
-}
-
+#giving-container,
+#brews-container,
 #journal-container {
-  margin: 27px;
+  margin: 50px;
 }
 
-#brews-container {
-  margin: 27px;
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
+
+  .work-container {
+    /* display: inline; */
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    margin-left: -512px; /* 50% */
+  }
+  #Work {
+    padding: -5px 0 0 300px;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  #Work {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 0 250px;
+  }
+}
+@media screen and (max-width: 540px) {
+  #Work {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0 0 350px;
+  }
 }

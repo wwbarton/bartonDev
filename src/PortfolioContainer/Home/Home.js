@@ -1,13 +1,14 @@
 import React from "react";
 import Profile from "../Profile/Profile";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="home-container">
       <Profile />
-      <Footer />
+
+      {/* <Footer /> */}
     </div>
   );
 }
