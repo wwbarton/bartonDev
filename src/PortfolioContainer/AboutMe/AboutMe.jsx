@@ -3,6 +3,7 @@ import "./AboutMe.css";
 import Profile from "../../assets/images/profile.jpg";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
+import robart from "../../assets/images/robart.png";
 
 function AboutMe() {
   return (
@@ -11,9 +12,11 @@ function AboutMe() {
         <div className="row align-items-center justify-content-around flex-row-reverse">
           <div className="col-lg-6">
             <div className="about-text">
-              <h3>Do some awsome stuff with me.</h3>
+              <h3>Do some awsome stuff with me, Will Barton!!</h3>
               <h4 className="theme-color">
-                UI / UX Designer &amp; Web Developer
+                <img src={robart} alt="robart" height={45} width={45} />
+                UI / UX Designer &amp; Web Developer{" "}
+                <img src={robart} alt="robart" height={45} width={45} />
               </h4>
               <p>
                 I design and develop services for customers of all sizes,

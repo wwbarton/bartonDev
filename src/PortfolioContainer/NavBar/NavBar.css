@@ -2,4 +2,9 @@
   outline: 4px solid rgb(17, 85, 233);
 }
 
+#robart {
+  margin-bottom: 08px;
+  border-radius: 25%;
+}
+
 /* color: inherit; */
