@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
 import robart from "../../assets/images/robart.png";
 import "./Profile.css";
 function Profile() {
@@ -56,11 +57,14 @@ function Profile() {
             <span className="profile-role-tagline">MERN Stack Dev</span>
           </div>
           <div className="profile-options">
-            <Button className="btn primary-btn" href="#Work">
-              My Work
-            </Button>
+            <Link to="/work">
+              <Button className="btn primary-btn">My Work</Button>
+            </Link>
+            <Link to="/aboutme">
+              <Button className="btn highlighted-btn">About Me</Button>
+            </Link>
 
-            <button className="btn highlighted-btn">Get Resume</button>
+            {/* <button className="btn highlighted-btn">Get Resume</button> */}
           </div>
         </div>
         <div className="profile-picture">

@@ -5,12 +5,16 @@ import Button from "react-bootstrap/Button";
 import brews from "../../assets/images/brews.gif";
 import journal from "../../assets/images/journal.gif";
 import giving from "../../assets/images/giving.gif";
+import "./Work.css";
 
 function Work() {
   return (
-    <div>
+    <div className="work-container">
       <CardGroup id="Work">
-        <Card className="bg-dark text-danger font-weight-bold">
+        <Card
+          id="giving-container"
+          className="bg-dark text-danger font-weight-bold"
+        >
           <Card.Img src={giving} alt="Card image" />
           <Card.ImgOverlay>
             <Card.Title className="font-weight-bolder ">
@@ -22,7 +26,10 @@ function Work() {
             </Card.Link>
           </Card.ImgOverlay>
         </Card>
-        <Card className="bg-dark text-danger font-weight-bold ">
+        <Card
+          id="journal-container"
+          className="bg-dark text-danger font-weight-bold "
+        >
           <Card.Img src={journal} alt="Card image" />
           <Card.ImgOverlay>
             <Card.Title className="font-weight-bold ">
@@ -34,7 +41,10 @@ function Work() {
             </Card.Link>
           </Card.ImgOverlay>
         </Card>
-        <Card className="bg-dark text-white font-weight-bold ">
+        <Card
+          id="brews-container"
+          className="bg-dark text-white font-weight-bold "
+        >
           <Card.Img src={brews} alt="Card image" />
           <Card.ImgOverlay>
             <Card.Title className="font-weight-bold ">
