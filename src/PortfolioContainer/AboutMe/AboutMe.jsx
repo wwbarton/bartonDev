@@ -10,26 +10,21 @@ function AboutMe() {
     <section className="section about-section gray-bg" id="about">
       <div className="container">
         <div className="row align-items-center justify-content-around flex-row-reverse">
-          <div className="col-lg-6">
+          <div className=" about-container col-lg-6">
             <div className="about-text">
               <h3>Do some awsome stuff with me, Will Barton!!</h3>
               <h4 className="theme-color">
-                <img src={robart} alt="robart" height={45} width={45} />
                 UI / UX Designer &amp; Web Developer{" "}
                 <img src={robart} alt="robart" height={45} width={45} />
               </h4>
               <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores. My passion is to design digital user
-                experiences through the bold interface and meaningful
-                interactions.
+                I design and develop services for a myriad of situations,
+                accomplished in HTML, CSS, Javascript, Node.js, MySQL, MongoDB
+                and Mongoose, React.js, GraphQL and more. My passion is to
+                design digital user experiences through bold interface and
+                meaningful interactions.
               </p>
-              <p>
-                I design and develop services for customers of all sizes,
-                specializing in creating stylish, modern websites, web services
-                and online stores.
-              </p>
+
               <div className="btn-bar">
                 <Link to="/work">
                   <a className="px-btn theme" href="#">
