@@ -12,7 +12,7 @@ function AboutMe() {
         <div className="row align-items-center justify-content-around flex-row-reverse">
           <div className=" about-container col-lg-6">
             <div className="about-text">
-              <h3>Do some awsome stuff with me, Will Barton!!</h3>
+              <h3>Do some awesome stuff with me, Will Barton!!</h3>
               <h4 className="theme-color">
                 UI / UX Designer &amp; Web Developer{" "}
                 <img src={robart} alt="robart" height={45} width={45} />
