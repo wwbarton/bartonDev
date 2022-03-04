@@ -11,14 +11,14 @@ function Profile() {
           <div className="colz">
             <div className="colz-icon">
               <a
-                href="https://github.com/wwbarton"
+                href="https://bit.ly/wwbarton-github"
                 target="_blank"
                 rel="noopener"
               >
                 <i class="fa fa-github-square fa-2x"></i>
               </a>
               <a
-                href="https://www.linkedin.com/in/wwbarton/"
+                href="https://bit.ly/linkedin-wwbarton"
                 target="_blank"
                 rel="noopener"
               >
@@ -32,7 +32,7 @@ function Profile() {
                 <i className="fa fa-google-plus-square fa-2x"></i>
               </a>
               <a
-                href="https://twitter.com/wbartonw5"
+                href="https://bit.ly/tweet-bartondev"
                 target="_blank"
                 rel="noopener"
               >
